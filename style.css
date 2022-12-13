@@ -1,4 +1,7 @@
 /* stylesheet */
+/* Jacob Sanchez */
+/* 12/12/22 */
+
 
 *{
     padding: 0;
@@ -8,6 +11,7 @@
 }
 
 
+/* homepage */
 
 .hero{
     height: 100vh;
@@ -17,6 +21,7 @@
     background-size: cover;
 }
 
+/* Navagation bar */
 
 nav{
     display: flex;
@@ -49,6 +54,8 @@ nav ul li a{
 nav ul li a:hover{
     color:rgb(115, 110, 137);
 }
+
+/* SUBSCRIBE */
 .btn{ 
     background-color:rgb(115, 110, 137);
     color: aliceblue;
@@ -106,6 +113,9 @@ h4{
     top: 6px;
     right: 6px;
 }
+
+/* ABOUT PAGE */
+
 .about{ 
     width: 100%;
     padding: 100px 0px;
@@ -158,6 +168,9 @@ button:hover{
     border: 2px solid black;
     cursor: pointer;
 }
+
+/* Find page */
+
 .find{
     background-color: rgb(127, 124, 124);
     width: 100%;
@@ -219,6 +232,9 @@ h5{
     border: 2px solid aliceblue;
     cursor: pointer;
 }
+
+/* contact me */
+
 .contact-me{
     width: 100%;
     height: 290px;
@@ -227,6 +243,9 @@ h5{
     align-items: center;
     flex-direction: column;
 }
+
+/* pics page */
+
 .pics {
     background-color: black;
 }
